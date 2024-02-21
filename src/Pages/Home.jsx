@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className='Home mt-10 '>
       {/* Introduction Portion */}
-      <div className='Top flex-grow flex justify-between pl-14  bg-gray-700 flex-row md:flex-col md:justify-center lg:justify-end'>
+      <div className='Top flex-grow flex justify-between pl-14  bg-gray-700 flex-col md:flex-row md:justify-center lg:justify-end'>
         <div className='mx-2'>
           <h1 className=' text-xl md:text-6xl font-mono font-bold pt-10 leading-relaxed text-yellow-50'>The Best Free <br /> Betting Tips For <br />  Every Day</h1>
           <hr className="my-4  border-t-2"  />
@@ -31,10 +31,9 @@ const Home = () => {
             <div className="flex-grow pl-4">
               <p>Leo vel fringilla est ullamcorper eget nulla. Sem nulla pharetra diam sit. Accumsan in nisl nisi scelerisque eu.</p>
               <p>Lectus urna duis convallis convallis tellus id interdum. Ornare quam viverra orci sagittis eu. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. </p> 
-              <p>Id faucibus nisl tincidunt eget nullam. Sed risus pretium quam vulputate. Eleifend quam adipiscing vitae proin sagittis nisl. Nulla malesuada pellentesque elit eget gravida.
-                 Aliquam malesuada bibendum arcu vitae elementum </p>
            </div>
            </div>
+          <button className="bg-gray-800 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded ml-64 mb-20"> Register Now</button>
         </div>
           {/* free tip */}
         <div>
@@ -45,9 +44,7 @@ const Home = () => {
             </div>
            <div className="flex-grow pl-4">
             <p>Leo vel fringilla est ullamcorper eget nulla. Sem nulla pharetra diam sit. Accumsan in nisl nisi scelerisque eu.
-            <p>Lectus urna duis convallis convallis tellus id interdum. Ornare quam viverra orci sagittis eu. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. </p> 
-            <p>Id faucibus nisl tincidunt eget nullam. Sed risus pretium quam vulputate. Eleifend quam adipiscing vitae proin sagittis nisl. Nulla malesuada pellentesque elit eget gravida.
-              Aliquam malesuada bibendum arcu vitae elementum </p>.</p>
+            <p>Lectus urna duis convallis convallis tellus id interdum. Ornare quam viverra orci sagittis eu. Purus ut faucibus pulvinar elementum integer enim neque volutpat ac. </p> </p>
            </div>
           </div>
         </div>
